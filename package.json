@@ -2,7 +2,7 @@
   "name": "hockey-simulator-version-two",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mrrustemka.github.io/hockey-league-simulator/",
+  "homepage": "https://rust-mr.github.io/hockey-league-simulator/",
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
     "@iconify/react": "^5.2.0",
