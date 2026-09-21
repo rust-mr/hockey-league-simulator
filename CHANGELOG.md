@@ -4,6 +4,14 @@ A hockey league simulation app: track teams, run seasons, and crown champions wi
 
 ---
 
+## 🩹 v9.1.1 - Favorite Teams Search Fix
+
+### 🛠 Fixes & Improvements
+
+1. **Favorite Teams Dropdown Search** — fixed search not returning any results when typing a team name
+
+---
+
 ## 🎲 v9.1.0 - World Championship & Schedule Overhaul
 
 ### 🎯 New Features

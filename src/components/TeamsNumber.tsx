@@ -131,6 +131,11 @@ function TeamsNumber({ league }: TeamsNumberProps) {
           value={validSelectedTeams}
           onChange={handleChange}
           aria-label='Select your favorite teams'
+          filterOption={(input, option) =>
+            String(option?.children ?? '')
+              .toLowerCase()
+              .includes(input.toLowerCase())
+          }
         >
           {league.teams.slice(0, teamsCount).map((team) => (
             <Option key={team.id} value={team.id}>
